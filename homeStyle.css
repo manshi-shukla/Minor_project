@@ -1,0 +1,154 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-box{
+    background-color:rgba(128, 128, 128, 0.347);
+    width: 100%;
+    height:70px ;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.flex{
+    display: flex;
+    /* justify-content: space-evenly; */
+    
+}
+#IMG{
+    width: 170px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.Home{
+    width: 100px;
+    height: 20px;
+    
+}
+.About{
+    width: 100px;
+    height: 20px;
+    
+    
+}
+.our{
+    width: 100px;
+    height: 20px;
+    
+    
+}
+.Contact{
+    width: 100px;
+    height: 20px;
+   
+    
+}
+
+
+
+.font-col{
+    color: black;
+}
+
+.content{
+    display: flex;
+    flex-direction: row-reverse;
+    /* justify-content: space-e; */
+}
+
+.box1{
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    margin: 20px;
+    border: 1px solid blue;
+    border-radius: 50px;
+   padding: 12px 24px;
+}
+
+.box1:hover{
+    background-color:rgba(0, 0, 255, 0.557);
+    color: white;
+}
+.box2{
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    margin: 20px;
+    border: 1px solid blue;
+    border-radius: 50px;
+   padding: 12px 24px;
+}
+.box2:hover{
+    background-color:rgba(0, 0, 255, 0.557);
+    color: white;
+}
+.box3{
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    margin: 20px;
+    border: 1px solid blue;
+    border-radius: 50px;
+   padding: 12px 24px;
+}
+.box3:hover{
+    background-color:rgba(0, 0, 255, 0.557);
+    color: white;
+}
+
+/* .containter1{
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: 20px;
+} */
+
+.box1-tex{
+    /* width: 40% ; */
+    /* background-image: url(Inventory.jpg); */
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+.box1-tex img{
+    /* width: 40% ; */
+    /* background-image: url(Inventory.jpg); */
+    width: 100vw;
+    height: 100vh;
+    opacity: calc(200px);
+}
+.box1-tex h1{
+    font-size: 80px;
+    color: rgba(165, 42, 42, 0.906);
+    font-weight: lighter;
+
+}
+
+/* .box1-img{
+    width: 60%px;
+    /* height: 500px; */
+    /* margin-top: 10%; */
+/* } */ 
+/* .IMG{
+    width: 700px;
+    height: auto;
+} */
+
+/* .flex1{
+    display: flex;
+    justify-content: space-between;
+} */
+
+
+
+
